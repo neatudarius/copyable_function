@@ -7,7 +7,7 @@ SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
 <!-- markdownlint-disable -->
 ![Library Status](https://raw.githubusercontent.com/bemanproject/beman/refs/heads/main/images/badges/beman_badge-beman_library_under_development.svg)
 ![Continuous Integration Tests](https://github.com/bemanproject/exemplar/actions/workflows/ci_tests.yml/badge.svg) ![Lint Check (pre-commit)](https://github.com/bemanproject/exemplar/actions/workflows/pre-commit.yml/badge.svg)
-![Target Standard](https://github.com/bemanproject/beman/blob/main/images/badges/cpp26.svg)
+![Standard Target](https://github.com/bemanproject/beman/blob/main/images/badges/cpp26.svg)
 <!-- markdownlint-enable -->
 
 `beman.copyable_function` is a type-erased function wrapper that can represent any copyable callable matching
