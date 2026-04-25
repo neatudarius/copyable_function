@@ -26,8 +26,6 @@ The following code snippet illustrates `copyable_function`:
 ```cpp
 #include <beman/copyable_function/copyable_function.hpp>
 
-namespace exe = beman::exemplar;
-
 // a Callable object
 struct Callable {
     int operator()() { return 42; }

@@ -1,7 +1,5 @@
 #include <beman/copyable_function/copyable_function.hpp>
 
-namespace exe = beman::copyable_function;
-
 // a Callable object
 struct Callable {
     int operator()() { return 42; }
