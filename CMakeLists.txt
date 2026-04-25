@@ -47,3 +47,7 @@ add_subdirectory(src/beman/copyable_function)
 if(BEMAN_COPYABLE_FUNCTION_BUILD_TESTS)
     add_subdirectory(tests/beman/copyable_function)
 endif()
+
+if(BEMAN_COPYABLE_FUNCTION_BUILD_TESTS)
+    add_subdirectory(examples)
+endif()
