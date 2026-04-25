@@ -10,6 +10,5 @@ struct Callable {
 
 int main() {
     beman::copyable_function<int()> f(Callable{});
-    int                             x = f();
-    return 0;
+    return f();
 }
