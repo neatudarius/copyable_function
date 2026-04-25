@@ -10,7 +10,6 @@ SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
 ![Target Standard](https://github.com/bemanproject/beman/blob/main/images/badges/cpp26.svg)
 <!-- markdownlint-enable -->
 
-
 `beman.copyable_function` is a type-erased function wrapper that can represent any copyable callable matching
 the function signature R(Args...). The library conforms to the [The Beman Standard](https://github.com/bemanproject/beman/blob/main/docs/beman_standard.md).
 
@@ -21,7 +20,6 @@ the function signature R(Args...). The library conforms to the [The Beman Standa
 beman.exemplar is licensed under the Apache License v2.0 with LLVM Exceptions.
 
 ## Usage
-
 
 The following code snippet illustrates `copyable_function`:
 
@@ -45,7 +43,6 @@ int main()
 
 ```
 
-
 ## Dependencies
 
 ### Build Environment
@@ -61,7 +58,6 @@ thus requiring an active internet connection to configure.
 You can disable this behavior by setting cmake option
 [`BEMAN_EXEMPLAR_BUILD_TESTS`](#beman_exemplar_build_tests) to `OFF`
 when configuring the project.
-
 
 ### Supported Platforms
 
